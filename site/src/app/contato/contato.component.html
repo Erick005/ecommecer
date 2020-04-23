@@ -1,49 +1,57 @@
-
-<form container>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputEmail4">Email</label>
-        <input type="email" class="form-control" id="inputEmail4">
-      </div>
-      <div class="form-group col-md-6">
-        <label for="inputPassword4">Senha</label>
-        <input type="password" class="form-control" id="inputPassword4">
-      </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 mt-4 mb-4 text-left">
+      <h2 style="font-family: BlinkMacSystemFont;"><b>FALE CONOSCO</b></h2>
+      <p class="text-left">Como podemos te ajudar? <br><br>
+        Fale com o nosso time, basta<br> 
+        preencher o formulário que um<br> 
+        de nossos atendentes entrará em contato.
+      </p>
+      <br>
+      <h2 style="font-family: BlinkMacSystemFont;"><b>ONDE NOS ENCONTAR</b></h2>
+      <p class="text-left">
+        São Paulo (sede)<br>
+        Avenida Paulista, 4,600<br>
+        7º e 8º andar – Av Paulista – São Paulo, SP.<br><br></p>
     </div>
-    <div class="form-group">
-      <label for="inputAddress">Endereço</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="Rua...">
+    <div class="col-md-6 mt-4 mb-4 text-left">
+      <h2 style="font-family: BlinkMacSystemFont;"><b>FORMULÁRIO</b></h2>
+      
+      
+      <form>
+        <div class="form-row">
+          <div class="col">
+            <label for="exampleInputEmail1">Nome</label>
+            <input type="text" class="form-control" placeholder="Nome">
+          </div>
+          
+          <div class="col">
+            <label for="exampleInputEmail1">Sobrenome</label>
+            <input type="text" class="form-control" placeholder="Sobrenome">
+          </div>
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+          <small id="emailHelp" class="form-text text-muted">Nunca compartilharemos seu email.</small>
+        </div>
+        
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Mensagem (opcional)</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Concordo</label>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+      
+      
+      
     </div>
-    <div class="form-group">
-      <label for="inputAddress2">Endereço opcional</label>
-      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, studio">
-    </div>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputCity">Cidade</label>
-        <input type="text" class="form-control" id="inputCity">
-      </div>
-      <div class="form-group col-md-4">
-        <label for="inputState">Estado</label>
-        <select id="inputState" class="form-control">
-          <option selected>Selecione o estado</option>
-          <option>São Paulo</option>
-          <option>Parana</option>
-          <option>Rio De Janeiro</option>
-          <option>Minas Gerais</option>
-          <option>Santa Catarina</option>
-          <option>Rio Grande Do Sul</option>
-          <option>Bahia</option>
-        </select>
-      </div>
-    </div>
-    <div class="form-group">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck">
-        <label class="form-check-label" for="gridCheck">
-          Aceita?
-        </label>
-      </div>
-    </div>
-    <button type="submit" class="btn btn-primary">Enviar</button>
-  </form>
+  </div>
+</div>
