@@ -1,6 +1,10 @@
 .bimagen{
     background-image: url('../../assets/img/fundohome3.png');
+    min-height: 500px;
+    max-width: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: black;
 }

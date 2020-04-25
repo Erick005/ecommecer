@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ProdutosComponent } from './produtos/produtos.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { PoliticaComponent } from './politica/politica.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     NavbarComponent,
     FooterComponent,
     ProdutosComponent,
-    SobreNosComponent
+    SobreNosComponent,
+    PoliticaComponent
   ],
   imports: [
     BrowserModule,
